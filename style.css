@@ -29,15 +29,14 @@ nav {
     width: 100%;
     position: relative;
     margin: 0 auto;
-    /* float: left; */
+    float: left;
     /* background-color: grey; */
     padding: 0;
     height: 90px;
+    font-size: 18px;
 }
 
-nav ul {
-    font-size: 24px;
-    min-width: 400px;
+nav ul {   
     height: 150px;
     margin: 0;
     padding: 0;
@@ -49,7 +48,6 @@ nav ul {
 
 nav ul li {    
     position: relative;
-    /* float: left; */
     float: left;
     /* height: 100%; */
     width: 25%;
@@ -66,21 +64,7 @@ nav ul li:hover {
     color: #8adaff;
 }
 
-nav ul li:after {
-    position: relative;
-    /* float: left; */
-    float: left;
-    /* height: 100%; */
-    width: 25%;
-    line-height: 90px;
-    text-align: center;
-    list-style: none;
-    text-transform: uppercase;
-    color: black;
-    background-color: #D9D9D9;
-}
-
-.nav_link {
+/* .nav_link {
     width: 160px;
     height: 50px;
     border-radius: 5px;
@@ -89,7 +73,7 @@ nav ul li:after {
     position: relative;
     top: 45px;
     left: 100px;
-}
+} */
 
 /* .nav_link:hover {
     background-color: #fff;
@@ -135,8 +119,22 @@ nav ul li:after {
 }
 
  
-@media screen and (max-width: 420px) {
-    .nav_link {
-        font-size: 12px;
-    }   
+@media screen and (max-width: 811px){
+    .news {
+        display: block;
+        padding: 30px 0;
+    }
+    .news-content {
+        transform: translateY(5%);
+    }
+    .news img{
+        margin: auto;
+        display: block;
+    }
 }
+
+/* @media screen and (max-width: 530px) {
+    .nav{
+        font-size: 5px;
+    }
+} */
