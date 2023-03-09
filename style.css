@@ -6,7 +6,7 @@ body {
 
 footer, header, aside, nav, article {
     display: block;
-    }
+}
 
 a {    text-decoration: none;}
 
@@ -31,7 +31,6 @@ nav {
     position: relative;
     margin: 0 auto;
     float: left;
-    /* background-color: grey; */
     padding: 0;
     height: 90px;
 }
@@ -40,16 +39,12 @@ nav ul {
     height: 150px;
     margin: 0;
     padding: 0;
-    /* float: left; */
-    /* position: relative; */
-    /* left: 50px; */
     height: 90px;
 }
 
 nav ul li {    
     position: relative;
     float: left;
-    /* height: 100%; */
     width: 25%;
     line-height: 90px;
     text-align: center;
@@ -63,29 +58,6 @@ nav ul li:hover {
     background-color: #266589;
     color: #8adaff;
 }
-
-/* .nav_link {
-    width: 160px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: #c2c2c2;
-    float: left;
-    position: relative;
-    top: 45px;
-    left: 100px;
-} */
-
-/* .nav_link:hover {
-    background-color: #fff;
-} */
-
-
-/* content {
-    height: 100%;
-    margin: 0 auto;
-    padding: 120px 0;
-    display: block;
-} */
 
 .news {
     max-height: 150px;
@@ -117,6 +89,13 @@ nav ul li:hover {
     text-align: center;
 }
 
+footer img {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
  
 @media screen and (max-width: 811px){
     .news {
@@ -145,5 +124,8 @@ nav ul li:hover {
     }
     header {
         font-size: 13px;
+    }
+    footer img {
+        bottom: 0;
     }
 }
